@@ -62,3 +62,9 @@ docker-compose up -d
 docker-compose down
 docker-compose up --build -d
 ```
+
+## URL to access phpMyAdmin
+It should be the value set at `PMA_ABSOLUTE_URI`.
+```
+http://YOUR_HOSTNAME/phpMyAdmin
+```
